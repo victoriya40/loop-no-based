@@ -10,7 +10,7 @@ while(y!=0){
     y=x%y;
     x=temp;
 }
-int hfc=x;
+int gcd=x;
 int lcm=(a*b)/gcd;
 System.out.print("LCM= "+lcm);
      }
