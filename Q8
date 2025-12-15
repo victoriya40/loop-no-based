@@ -11,7 +11,7 @@ while(y!=0){
     x=temp;
 }
 int hfc=x;
-int lcm=(a*b)/gfc;
-System.out.print("LCM= "+lcd);
+int lcm=(a*b)/gcd;
+System.out.print("LCM= "+lcm);
      }
     }
