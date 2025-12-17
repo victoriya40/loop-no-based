@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int r=(int)Math.sqrt(n);
+        if(r*r==n)
+        System.out.print("perfect square");
+        else
+         System.out.print("not a perfect square");
+    }
+}
